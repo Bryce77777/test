@@ -59,3 +59,12 @@ $db1 = "SELECT c.id, c.city, p.province FROM city c INNER JOIN province p ON c.p
 #2 统计每个省份有多少个城市，显示字段：省份id ，省份名，包含多少个城市。
 $db2 = "SELECT p.id, p.province, count(c.id) as number FROM province p INNER JOIN city c ON p.id=c.province_id group by id";
 #3 找出拥有超过18座城市的所有省份
+# 
+
+// 08 
+
+// 09（问答题）找出下面代码的问题，并提出解决方案
+
+#解答：
+#1.         || 改成 &，
+#2.			可使用批量新增  	
